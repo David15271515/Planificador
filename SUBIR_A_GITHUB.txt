@@ -1,0 +1,16 @@
+MI PLAN V2 - subida recomendada
+
+1. Descomprime esta carpeta.
+2. En GitHub > Code > Add file > Upload files.
+3. Arrastra TODO el contenido de esta carpeta (incluyendo las carpetas src, public, server y .github).
+4. Haz un único Commit changes.
+5. GitHub Actions se ejecutará automáticamente.
+
+IMPORTANTE: comprueba antes de confirmar que en la lista de subida aparecen archivos como:
+- src/App.tsx
+- src/main.tsx
+- src/styles.css
+- public/icons/icon-192.png
+- .github/workflows/main.yml
+
+Esta V2 ya usa `vite build` directamente para evitar el error de TypeScript visto en GitHub Actions.

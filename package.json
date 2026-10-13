@@ -1,11 +1,11 @@
 {
   "name": "mi-plan-pwa",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "concurrently -k \"vite\" \"node --watch server/index.mjs\"",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "start": "node server/index.mjs",
     "preview": "vite preview"
   },
