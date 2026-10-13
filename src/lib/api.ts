@@ -62,7 +62,7 @@ export const api = {
       const response = await fetch(apiUrl('/api/health'), { signal: controller.signal })
       if (!response.ok) return false
       const body = await response.json().catch(() => null) as { ok?: boolean; storage?: string } | null
-      return body?.ok === true && body?.storage === 'json'
+      return body?.ok === true && (body?.storage === 'json' || body?.storage === 'github-json')
     } catch {
       return false
     } finally {
