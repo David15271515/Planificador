@@ -1,8 +1,16 @@
-# Mi Plan PWA · versión JSON
+# Mi Plan PWA · V3 JSON
 
 Agenda PWA en verde agua, con **usuario + contraseña sin correo** y almacenamiento sencillo en archivos JSON.
 
-## Qué cambia en esta versión
+## Cambios V3
+
+- Eliminado el encabezado “mi plan ♡ / ESTUDIA · ORGANIZA · DISFRUTA”.
+- Barra inferior fija y visible en móviles pequeños.
+- “Progreso” ahora tiene métricas reales.
+- “Más” ahora muestra cuenta, estado de sincronización y cierre de sesión cuando el servidor está activo.
+- Acceso rápido a Cuenta desde la parte superior.
+
+## Base del proyecto
 
 - Sin Supabase ni base de datos SQL.
 - Login solo con `usuario` y `contraseña`.
